@@ -86,7 +86,7 @@ product-card h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid e6e5ef;
+  border-top: 1px solid #e6e5ef;
   padding-top: 20px;
 }
 .price-label {
