@@ -1,105 +1,101 @@
-body {font-family: Arial, sans-serif;
+body {
+  margin: 0;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #515076;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 85px;
+  padding: 220px 0 80px;
+  box-sizing: border-box;
+  background: url("images/FONN.jpg") no-repeat left top;
+  background-size: auto;
 }
 
 .title {
   text-align: center;
-  font-size: 70px;
+  font-size: 64px;
   font-weight: 400;
-  line-height: 78px;
-  margin: 0;
+  margin: 0 0 110px;
   color: #515076;
 }
 
+.container > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+.product-card {
+  width: 350px;
+  background-color: #f7f7fa;
+  border-radius: 12px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+}
 
-.compound {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 12px;
+.product-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.text {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
   color: #a5a3b9;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
+product-card h2 {
+  margin: 0 0 15px;
+  font-size: 28px;
+  color: #515076;
 }
 
 .description {
-  font-family: Montserrat;
-    font-weight: 400;
-  
-  font-size: 18px;
-  line-height: 13px;
-  font-style: regular;
-  color: #a5a3b9;
-  
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f8ca7;
+  margin-bottom: 20px;
 }
-.container {
-  width: 1110px;
-  height: 1,191px;
-  top: 408px;
-  left: 85px;
-  border: 1px ;
 
-}
-.product-card {
-  display: inline-block;
-  width: 300px;
-  height: 250px;
-  top: 408px;
-  left: 85px;
-  min-height: 500px;
-  margin: 15px;
-  padding: 20px;
-  vertical-align: top;
-  text-align: left;
-  border: 12px solid #f7f7fa;
-  background-color: #f7f7fa;
-  border-radius: 10px;
-}
-.product-card img {
+.compound {
   display: block;
-  width: 290px;
-  height: 245px;
-  top: 433px;
-  left: 110px;
-
-}
-product-card h2 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
-  font-style: bold;
-  line-height: 27px;
-  margin: 10px 0;
-  
-  
+  color: #8f8ca7;
 }
-product-card p {
-  font-size: 50px;
-  line-height: 20px;
-  margin: 10px 0;
+
+.list {
+  padding-left: 18px;
+  color: #8f8ca7;
+  line-height: 28px;
 }
 .price-value {
-  float: right;
-  font-weight: bold;
-
-}
-.text {
-  display: center;
-  font-size: 12px;
-  font-weight: bold;
-  color: #a5a3b9;
-  margin-bottom: 10px;
-}
-.price {
-  color: #888;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e6e5ef;
+  padding-top: 20px;
 }
 .price-label {
-  color: #0c0c0c; 
-
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
 }
-.color {
-  font-size: 14px;
-  font-weight: 400;
-  font-style: regular;
-  line-height: 13px;
-  color: #a5a3b9;
 
+.price {
+  font-size: 20px;
+  color: #515076;
 }
