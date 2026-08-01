@@ -4,16 +4,17 @@ body {
   color: #515076;
 }
 
-.container {
+.products__container {
   width: 1110px;
   margin: 0 85px;
   padding: 220px 0 80px;
   box-sizing: border-box;
+
   background: url("images/FONN.jpg") no-repeat left top;
   background-size: auto;
 }
 
-.title {
+.products__title {
   text-align: center;
   font-size: 64px;
   font-weight: 400;
@@ -21,81 +22,88 @@ body {
   color: #515076;
 }
 
-.container > ul {
+.products__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .product-card {
   width: 350px;
+  padding: 20px;
+  box-sizing: border-box;
   background-color: #f7f7fa;
   border-radius: 12px;
-  padding: 20px;
-  list-style: none;
-  box-sizing: border-box;
 }
 
-.product-card img {
+.product-card__image {
   display: block;
   width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
 
-.text {
+.product-card__type {
   display: block;
+  margin-bottom: 15px;
   font-size: 12px;
   font-weight: 700;
   color: #a5a3b9;
-  margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-product-card h2 {
+.product-card__title {
   margin: 0 0 15px;
   font-size: 28px;
   color: #515076;
 }
 
-.description {
+.product-card__description {
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 24px;
   color: #8f8ca7;
-  margin-bottom: 20px;
 }
 
-.compound {
+.product-card__subtitle {
   display: block;
+  margin-bottom: 10px;
   font-size: 16px;
   font-weight: 700;
   color: #8f8ca7;
 }
 
-.list {
+.product-card__composition {
+  margin: 0 0 20px;
   padding-left: 18px;
   color: #8f8ca7;
   line-height: 28px;
 }
-.price-value {
+
+.product-card__item {
+  margin-bottom: 5px;
+}
+
+.product-card__price {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #e6e5ef;
   padding-top: 20px;
+  border-top: 1px solid #e6e5e9;
 }
-.price-label {
+
+.product-card__price-label {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000;
 }
 
-.price {
+.product-card__price-value {
   font-size: 20px;
   color: #515076;
 }
