@@ -4,11 +4,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Product Cards</title>
 
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
     rel="stylesheet"
@@ -22,11 +21,19 @@
   <section class="products">  
     <div class="products__container">
       <h1 class="products__title">Выбери свой продукт</h1>
+      <button id="change-title-color">Изменить цвет заголовка</button>
 
+
+  <div class="card-container">
+
+      <button id="change-color-all-card">Сменить цвет всех карточек</button>
+      <button id="change-color-first-card">Сменить цвет первой карточки</button>
+      <button id="open-google">Открыть страницу Google.com</button>
+      <button id="output-console-log">Вывести сообщение в консоль лог</button>
 
        <ul class="products__list">
 
-
+      
         <li class="product-card">
           <img class="product-card__image" src="images/bottle_of_mousse_1.jpg" alt="Увлажняющий мусс" />
 
@@ -54,7 +61,7 @@
           </div>       
         </li>
 
-
+     
         <li class="product-card">
           <img class="product-card__image" src="images/bottle_of_mask_2.jpg" alt="Увлажняющая маска" />
 
@@ -167,6 +174,6 @@
       </ul>
     </div>
   </section>  
-
+  <script src="main.js"></script>
   </body>
 </html>
