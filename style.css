@@ -22,8 +22,9 @@ body {
   color: #515076;
 }
 
-.products__title--red {
-  color: #ff0000;
+.button--red {
+  background-color: red;
+  color: white;
 }
 
 .products__list {

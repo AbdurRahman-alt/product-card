@@ -47,21 +47,17 @@ function outputConsoleLog(message) {
   console.log(message);
 }
 
-const productsTitle = document.querySelector('.products__title');
+const productTitle = document.querySelector('.products__title');
 
-productsTitle.addEventListener('mouseenter', () => {
-  console.log('Вы навели курсор на заголовок');
+productTitle.addEventListener('mouseenter', () => {
+  console.log(productTitle.textContent);
 });
 
 
-
-
-
-const title = document.querySelector('.products__title');
 const changeTitleColorButton = document.querySelector('#change-title-color');
 
 changeTitleColorButton.addEventListener('click', () => {
-  title.classList.toggle('products__title--red');
+  changeTitleColorButton.classList.toggle('button--red');
 });
 
 
