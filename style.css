@@ -22,6 +22,11 @@ body {
   color: #515076;
 }
 
+.button--red {
+  background-color: red;
+  color: white;
+}
+
 .products__list {
   display: flex;
   flex-wrap: wrap;
